@@ -1,0 +1,26 @@
+.container{
+    background-color: beige;
+    height : 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.box{
+    height : 100px;
+    width : 100px;
+    border : 2px solid black;
+}
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: red;
+}
+#box4{
+    background-color: yellow;
+}
