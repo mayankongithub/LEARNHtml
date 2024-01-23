@@ -1,8 +1,33 @@
-.first{
+/* .first{
     background-color: bisque;
-    
+
     color:black;
     margin-bottom: 150px;
     padding : 30px;
     border : solid black 3px;
+} */
+.container{
+    border : 2px solid black;
+    height : 700px;
+    background-color: black;
+    width : 600px;
+    
+}
+.box{
+    height : 200px;
+    width : 200px;
+    border : 2px solid black;
+    padding : 2px;
+    margin : 2px;
+}
+#one{
+    background-color: antiquewhite;
+    position: relative;
+    left : 23px;
+}
+#two{
+    background-color: beige;
+}
+#three{
+    background-color: bisque;
 }

@@ -1,0 +1,16 @@
+#one{
+    background-color: black;
+    color:whitesmoke;
+    font-weight: 300;
+    height : 200px;
+    width : 200px;
+    border : 2px solid black;
+}
+
+@media(max-width : 500px){
+    #one{
+        background-color: aquamarine;
+        color : red;
+
+    }
+}
