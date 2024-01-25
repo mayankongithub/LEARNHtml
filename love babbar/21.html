@@ -5,10 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="21.css">
+    <style>
+        p{
+            color:black;
+            background-color: antiquewhite;      
+        }
+        .container{
+            background-color: blanchedalmond;
+            border:2px solid black;
+            display: flex;
+            flex-direction: row;
+            width : 550px;
+        }
+        #boxright{
+            margin-left: 1px;
+        }
+        @media(min-width:600px){
+            .container{
+                flex-direction : column;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <div id="one">this is div!!</div>
+        <div id="boxleft">
+            <p>This is first text</p>
+            <p>This is second text</p>
+        </div>
+        <div id="boxright">
+            <img src="pic.jpg" alt="Dhoni saab">
+        </div>
     </div>
 </body>
 </html>
