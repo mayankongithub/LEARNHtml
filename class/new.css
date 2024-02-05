@@ -1,0 +1,14 @@
+fieldset{
+    border : 2px solid green;
+    box-shadow: 5px 5px 10px blue;
+}
+div{
+    border : 3px black solid;
+}
+*{
+    background-color: pink;
+}
+
+#box{
+    justify-content: center;
+}
