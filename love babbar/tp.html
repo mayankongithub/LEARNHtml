@@ -19,7 +19,10 @@
             height : 100%;
             width : 100%;
             display: grid;
-            grid-template-rows: repeat(3,1fr);
+            /* grid-template-areas: "side side side side"
+                                 "side side side side"
+                                 "side side side side"; */
+            grid-template-rows: repeat(3 ,1fr);
             grid-template-columns: repeat(4,1fr);
             row-gap: 1rem;
             padding : 3rem;
@@ -37,6 +40,11 @@
             grid-column-start: 2;
             grid-column-end: 4;
         }
+       .box6{
+            grid-row-start: -3;
+            grid-row-end: -1;
+       }
+      
         
     </style>
 </head>
@@ -45,16 +53,15 @@
         <div class="items box1" >item1</div>
         <div class="items box2">item2</div>
         <div class="items box3">item3</div>
-        <div class="items">item4</div>
-        <div class="items">item5</div>
+        <div class="items box4">item4</div>
+        <div class="items box5">item5</div>
         <div class="items box6">item6</div>
         <div class="items">item7</div>
         <div class="items">item8</div>
 
-        <div class="items">item9</div>
-        <div class="items">item10</div>
+        <!-- <div class="items">item10</div>
         <div class="items">item11</div>
-        <div class="items">item12</div>
+        <div class="items">item12</div> -->
     </div>
 </body>
 </html>
