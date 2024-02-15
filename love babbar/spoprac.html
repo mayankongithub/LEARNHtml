@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height:100vh;
+            width:100vw;
+        }
+        .container{
+            background-color: antiquewhite;
+            height :100%;
+            width :100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .items{
+            border : 2px solid black;
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">item1</div>
+        <div class="items">item2</div>
+        <div class="items">item3</div>
+        <div class="items">item4</div>
+        <div class="items">item5</div>
+    </div>
+</body>
+</html>
