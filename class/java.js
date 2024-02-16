@@ -12,14 +12,20 @@
 // console.log(x);
 // console.log(y);
 
-let x = 5;
-function a(){
-    let x = 100;
-    b();
-}
-function b(){
-    let y = 50;
-    let sum = x+y;
-    console.log("sum is : ",sum);
-}
-a();
+// let x = 5;
+// function a(){
+//     let x = 100;
+//     b();
+// }
+// function b(){
+//     let y = 50;
+//     let sum = x+y;
+//     console.log("sum is : ",sum);
+// }
+// a();
+
+var num1 = parseInt(prompt("enter 1st number: "));
+var num2 = parseInt(prompt("enter 2nd number: "));
+let sum = num1 + num2;
+console.log("sum is: ",sum);
+console.log(typeof sum);
