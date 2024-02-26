@@ -126,10 +126,18 @@
 //     console.log(i , "-> " , marks[i]);
 // }
 // console.log(typeof(marks));
-var n = 7;
-for(i=1;i<=n;i++){
-    for(j=1;j<=i;j++){
-        document.write("*");
-    }
-    document.write("<br>");
+// var n = 7;
+// for(i=1;i<=n;i++){
+//     for(j=1;j<=i;j++){
+//         document.write("*");
+//     }
+//     document.write("<br>");
+// }
+marks = {
+    maths : 97,
+    science : 34,
+    language : 34
+};
+for(i in marks){
+    console.log(i,marks[i]);
 }
