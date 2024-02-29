@@ -141,11 +141,37 @@
 // for(i in marks){
 //     console.log(i,marks[i]);
 // }
-console.log(typeof(marks));
-var n = prompt('Enter the number : ');
-for(i=1;i<=n;i++){
-    for(j=1;j<=i;j++){
-        document.write(j);
-    }
-    document.write("<br>");
-}
+// console.log(typeof(marks));
+// var n = prompt('Enter the number : ');
+// for(i=1;i<=n;i++){
+//     for(j=1;j<=i;j++){
+//         document.write(j);
+//     }
+//     document.write("<br>");
+// }
+// arr=[13,58,23,45,26,48,100,66];
+// arr2 = [];
+// arr.sort(function(a,b){return a-b});
+// for(let i=0,ni=0;i<arr.length;i++){
+//     if(arr[i]%2==0){
+//         arr2[ni] = arr[i];
+//         console.log(arr[i],"<br>");
+//     }
+// }
+
+
+// for(let i=0;i<arr2.length;i++){
+//     console.log(arr2[i],"<br>");
+// }
+// fruit = ["mango","apple","kiwi","orange","banana","pear"];
+// fruit.splice(1,3,"fruit1","fruit2");
+// for(let i=0;i<fruit.length;i++){
+//     console.log(fruit[i]," ");
+// }
+
+// console.log(`fruit : ${Array.isArray(fruit)}`);
+
+names = ['geeta','ram','atul','deepak'];
+console.log(names.includes('Ram'));
+names.reverse();
+console.log(names);
