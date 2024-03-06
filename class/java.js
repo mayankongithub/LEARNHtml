@@ -171,7 +171,51 @@
 
 // console.log(`fruit : ${Array.isArray(fruit)}`);
 
-names = ['geeta','ram','atul','deepak'];
-console.log(names.includes('Ram'));
-names.reverse();
-console.log(names);
+// names = ['geeta','ram','atul','deepak'];
+// console.log(names.includes('Ram'));
+// names.reverse();
+// console.log(names);
+
+// names = ['geeta','ram','atul','deepak'];
+// let newarr = [...names,'rahul'];
+// console.log(newarr);
+
+// let word = 'mayank';
+// let newarr = [...word];
+// console.log(newarr);
+
+// names1 = ['geeta','ram','atul','deepak'];
+// names2 = ['geet','ra','atu','deepa'];
+// all = [...names1,...names2];
+// console.log(all);
+
+// arr1 = [-1,-2,-3,4];
+// arr2 = [5,-6,-7,-8];
+// arr3 = [-12,-13,-14,-15];
+// console.log(Math.max(...arr1,...arr2,...arr3));
+
+// function sum(...args){
+//     var result = args.reduce(function(a,b){
+//         return a+b;
+//     },0);
+//     return result;
+// }
+// console.log(sum(1,2,3,4,5));
+
+// let n = 4;
+// arr = [4,2,4,4,7];
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]==n){
+//         arr.splice(i,1);
+//     }
+// }
+// console.log(arr,"<br>");
+
+// str = "Mayank";
+// for(let i=0;i<str.length;i++){
+//     if(str[i] = str[i].isUpperCase()){
+//         str[i]
+//         .toLowerCase();
+//     }
+// }
+// console.log(str);
