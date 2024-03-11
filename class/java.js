@@ -219,3 +219,8 @@
 //     }
 // }
 // console.log(str);
+
+// str = new String ("mayank");
+// document.write(str.toUpperCase());
+
+console.log(1+'1'-1);
