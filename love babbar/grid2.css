@@ -1,9 +1,12 @@
 body{
+    
+    height: 100%;
+    width : 100%;
+}
+*{
     padding : 0;
     margin : 0;
     box-sizing: border-box;
-    height: 100%;
-    width : 100%;
 }
 .container{
     height: 100%;
@@ -12,8 +15,8 @@ body{
     display: grid;
     /* grid-template-columns: repeat(auto-fit,min(300px,500px)); */
     grid-template-areas: "header header header"
-                        "siderbar content1 content1"
-                        "siderbar content2 content3"
+                        "sidebar content1 content1"
+                        "sidebar content2 content3"
                         "footer footer footer";
 }
 .item{
@@ -23,6 +26,9 @@ body{
 }
 #header{
     grid-area : header;
+}
+#sidebar{
+    grid-area: sidebar;
 }
 #content1{
     grid-area : content1;

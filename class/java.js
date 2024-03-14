@@ -223,4 +223,4 @@
 // str = new String ("mayank");
 // document.write(str.toUpperCase());
 
-console.log(1+'1'-1);
+document.getElementsByTagName("p").innerHTML = "Mayank";
