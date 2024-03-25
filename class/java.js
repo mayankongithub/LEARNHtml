@@ -1,9 +1,7 @@
-
-// let a;
-// let x = 3;
-// let y = 3;
-// let z = x+y;
-// console.log(z);
+let x = 3;
+let y = 3;
+let z = x+y;
+console.log(z);
 // let x = 31;
 // let y = 15;
 // x = x+y;
@@ -223,4 +221,4 @@
 // str = new String ("mayank");
 // document.write(str.toUpperCase());
 
-document.getElementsByTagName("p").innerHTML = "Mayank";
+// document.getElementsByTagName("p").innerHTML = "Mayank";
